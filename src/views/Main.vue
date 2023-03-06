@@ -26,6 +26,8 @@ const routerTo = (rout) => {
                     <v-list-item @click="routerTo('/list')">Отрисовка списков </v-list-item>
                     <v-list-item @click="routerTo('/events')">Обработчики событий</v-list-item>
                     <v-list-item @click="routerTo('/form-binding')">Связывание форм</v-list-item>
+                    <v-list-item @click="routerTo('/hooks')">Хуки жизненного цикла</v-list-item>
+                    <v-list-item @click="routerTo('/watch')">Наблюдатели</v-list-item>
                 </v-list>
             </v-navigation-drawer>
             <v-main style="min-height: 100vh;" class=" ma-8">
