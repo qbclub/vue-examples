@@ -59,6 +59,16 @@ const router = createRouter({
           name: 'watcn',
           component: () => import('../components/Watchers.vue')
         },
+        {
+          path: '/refs',
+          name: 'refs',
+          component: () => import('../components/Refs.vue')
+        },
+        {
+          path: '/components',
+          name: 'components',
+          component: () => import('../components/Components.vue')
+        },
 
       ]
     },
