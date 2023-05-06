@@ -1,6 +1,16 @@
-# vue-examples
+# vue-examples (vue3 vite vuetify)
+
+## Создано с помощью 
+
+```sh
+yarn create vuetify
+```
 
 This template should help get you started developing with Vue 3 in Vite.
+
+## Recommended IDE Setup
+
+
 
 ## Recommended IDE Setup
 
