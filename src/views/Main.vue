@@ -30,6 +30,8 @@ const routerTo = (rout) => {
                     <v-list-item @click="routerTo('/watch')">Наблюдатели</v-list-item>
                     <v-list-item @click="routerTo('/refs')">Refs</v-list-item>
                     <v-list-item @click="routerTo('/components')">Основы компонентов </v-list-item>
+                    <!-- Этот роут чтобы показать работу router-link -->
+                    <RouterLink to="/list">К компоненте со списками</RouterLink>
                 </v-list>
             </v-navigation-drawer>
             <v-main style="min-height: 100vh;" class=" ma-8">
